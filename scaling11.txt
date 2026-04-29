@@ -1,0 +1,9 @@
+pwd
+sudo nano Maheswar.sh
+sudo chmod  +x Maheswar.sh
+sh Maheswar.sh
+#!/bin/bash
+while(true)
+do
+ echo "Inside loop"
+done
