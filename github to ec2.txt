@@ -1,0 +1,12 @@
+sudo apt-get update && sudo apt-get upgrade
+sudo apt-get install nginx
+nginx -v
+curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+sudo apt install nodejs
+nodejs -v
+git clone https://github.com/maheswar123502/aws-repo.git
+cd aws-repo
+ls
+npm install
+npm -v
+node index.js
